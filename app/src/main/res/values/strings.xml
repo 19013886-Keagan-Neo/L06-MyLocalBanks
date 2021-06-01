@@ -17,4 +17,5 @@
     <string name="ocbc_contact">18003633333</string>
     <string name="uob_contact">18002222121</string>
     <string name="translate_error">Error Translation</string>
+    <string name="title2">Toggle Favorite</string>
 </resources>

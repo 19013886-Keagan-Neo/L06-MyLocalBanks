@@ -3,6 +3,7 @@ package sg.edu.rp.c346.id19013886.l06_mylocalbanks;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.ContextMenu;
@@ -69,6 +70,13 @@ public class MainActivity extends AppCompatActivity {
                 Intent intentCall = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + getString(R.string.dbs_contact)));
                 startActivity(intentCall);
                 return true;
+            } else if (id == R.id.favouriteSelection) {
+                if (tvDBS.getCurrentTextColor() == Color.RED) {
+                    tvDBS.setTextColor(Color.BLACK);
+                } else {
+                    tvDBS.setTextColor(Color.RED);
+                }
+                return true;
             }
 
         } else if (bankClicked.equalsIgnoreCase("OCBC")) {
@@ -80,6 +88,13 @@ public class MainActivity extends AppCompatActivity {
                 Intent intentCall = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + getString(R.string.ocbc_contact)));
                 startActivity(intentCall);
                 return true;
+            } else if (id == R.id.favouriteSelection) {
+                if (tvOCBC.getCurrentTextColor() == Color.RED) {
+                    tvOCBC.setTextColor(Color.BLACK);
+                } else {
+                    tvOCBC.setTextColor(Color.RED);
+                }
+                return true;
             }
 
         } else if (bankClicked.equalsIgnoreCase("UOB")) {
@@ -90,6 +105,13 @@ public class MainActivity extends AppCompatActivity {
             } else if (id == R.id.callSelection) {
                 Intent intentCall = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + getString(R.string.uob_contact)));
                 startActivity(intentCall);
+                return true;
+            } else if (id == R.id.favouriteSelection) {
+                if (tvUOB.getCurrentTextColor() == Color.RED) {
+                    tvUOB.setTextColor(Color.BLACK);
+                } else {
+                    tvUOB.setTextColor(Color.RED);
+                }
                 return true;
             }
 

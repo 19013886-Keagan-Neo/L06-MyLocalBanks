@@ -8,4 +8,5 @@
         android:id="@+id/chineseSelection"
         android:orderInCategory="101"
         android:title="@string/title1" />
+
 </menu>
