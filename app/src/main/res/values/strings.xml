@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">L06-My Local Banks</string>
+    <string name="dbs">DBS</string>
+    <string name="ocbc">OCBC</string>
+    <string name="uob">UOB</string>
+    <string name="title">English</string>
+    <string name="title1">Chinese</string>
+    <string name="website">Website</string>
+    <string name="call">Contact the bank</string>
+</resources>
