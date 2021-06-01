@@ -7,4 +7,14 @@
     <string name="title1">Chinese</string>
     <string name="website">Website</string>
     <string name="call">Contact the bank</string>
+    <string name="dbs_chin">星展银行</string>
+    <string name="ocbc_chin">华侨银行</string>
+    <string name="uob_chin">大华银行</string>
+    <string name="dbs_website">https://www.dbs.com.sg</string>
+    <string name="ocbc_website">https://www.ocbc.com</string>
+    <string name="uob_website">https://www.uob.com.sg</string>
+    <string name="dbs_contact">18001111111</string>
+    <string name="ocbc_contact">18003633333</string>
+    <string name="uob_contact">18002222121</string>
+    <string name="translate_error">Error Translation</string>
 </resources>
